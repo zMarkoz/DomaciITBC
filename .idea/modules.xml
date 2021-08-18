@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Domaci.iml" filepath="$PROJECT_DIR$/Domaci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DomaciSredaIV/DomaciSredaIV.iml" filepath="$PROJECT_DIR$/DomaciSredaIV/DomaciSredaIV.iml" />
+    </modules>
+  </component>
+</project>

@@ -103,6 +103,18 @@ public class FoodDaoSQL implements FoodDao {
         }
         return model;
     }
+    public void addToMeal(int meal_id, int food_id, double mass) {
+        
+        try {
+            PreparedStatement st = conn.prepareStatement("INSERT INTO mealfood VALUES (?, ?, ?);");
+            st.setInt(1, meal_id);
+            st.setInt(2, food_id);
+            st.setDouble(3, mass);
+            st.executeUpdate();
+        }catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+    }
 
     @Override
     public List<FoodModel> getAllFood() {

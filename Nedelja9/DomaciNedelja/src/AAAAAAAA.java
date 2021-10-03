@@ -24,8 +24,8 @@ public class AAAAAAAA {
     public static void main(String[] args) {
         String code = "";
         int shift = 0;
-        int brEnkripcije= 1;
-        while (shift < 100) {
+        int brEnkripcije= 0;
+        while (shift < 101) {
             System.out.println(brEnkripcije + " : " + dekripcija(code, shift));
             shift++;
             brEnkripcije++;

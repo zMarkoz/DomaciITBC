@@ -1,6 +1,6 @@
 
 
-public class AAAAAAAA {
+public class SecretCode {
 
     public static String enkripcija(String poruka, int kljuc) {
         String encrypted = "";
